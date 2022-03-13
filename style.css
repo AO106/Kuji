@@ -1,0 +1,52 @@
+html{
+    background-color: #75400f;
+}
+.a{
+    color: #ffffff;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    text-align: center;
+    font-size: 90px;
+    text-shadow: #FC0 1px 0 10px;
+    
+}
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #743509;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #5a3a0a;
+    border-radius: 3px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    text-align: center;
+    font-size: 20px;
+}
+.btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+.title{
+    color: #ffffff;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(0, 89, 255), 0 0 1em blue, 0 0 0.2em blue;
+    
+}
+.HOME{
+    color: #FFF;
+    position: absolute;
+    top: 14.4%;
+    left: 75%;
+    text-align: center;
+    font-size: 14px;
+}
+
